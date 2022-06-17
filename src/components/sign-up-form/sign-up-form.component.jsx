@@ -1,4 +1,4 @@
-import Button from '../button/button.component'
+import Button, { BUTTON_TYPE_CLASSES } from '../button/button.component'
 import FormInput from '../form-input/form-input.component'
 import './sign-up-form.styles.scss'
 import { useState } from "react"
@@ -83,7 +83,7 @@ const SignUpForm = () => {
         label='Confirm Password'
         type='password' 
         required 
-        onChange={handleChange}  
+        onChange={handleChange}   
         name='confirmPassword' 
         value={confirmPassword} />
         <Button 
