@@ -17,7 +17,6 @@ const CategoriesPreview = () => {
           }
         )
       }
-    
     </Fragment>
   )
 }
